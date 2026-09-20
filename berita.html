@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Berita | Desa Pusaka</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+    <div class="container navbar">
+
+        <a href="index.html" class="brand">
+
+            <div class="logo-icon">
+                🏡
+            </div>
+
+            <div class="brand-text">
+
+                <strong>
+                    DESA PUSAKA
+                </strong>
+
+                <span>
+                    Dusun Sekadim
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <button class="menu-toggle"
+                id="menuToggle">
+            ☰
+        </button>
+
+
+        <nav id="navMenu">
+
+            <a href="index.html">
+                Beranda
+            </a>
+
+            <a href="profil.html">
+                Profil
+            </a>
+
+            <a href="pemerintahan.html">
+                Pemerintahan
+            </a>
+
+            <a href="layanan.html">
+                Layanan
+            </a>
+
+            <a href="berita.html"
+               class="active">
+                Berita
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<section class="page-header">
+
+    <div class="container">
+
+        <span>
+            INFORMASI TERKINI
+        </span>
+
+        <h1>
+            Berita Desa
+        </h1>
+
+        <p>
+            Informasi dan kegiatan Desa Pusaka
+        </p>
+
+    </div>
+
+</section>
+
+
+<main>
+
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="news-list">
+
+
+            <article class="news-item">
+
+                <div class="news-thumb">
+                    🌾
+                </div>
+
+                <div class="news-item-content">
+
+                    <span>
+                        PEMBANGUNAN
+                    </span>
+
+                    <h2>
+                        Pembangunan dan Pemberdayaan Masyarakat Desa
+                    </h2>
+
+                    <p class="news-meta">
+                        Desa Pusaka · Informasi Desa
+                    </p>
+
+                    <p>
+                        Pemerintah desa terus mendorong
+                        pembangunan yang memberikan manfaat
+                        bagi masyarakat dan lingkungan desa.
+                    </p>
+
+                    <button
+                        class="text-button"
+                        onclick="readNews('Pembangunan dan Pemberdayaan Masyarakat Desa')">
+                        Baca Berita →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="news-item">
+
+                <div class="news-thumb">
+                    🤝
+                </div>
+
+                <div class="news-item-content">
+
+                    <span>
+                        KEMASYARAKATAN
+                    </span>
+
+                    <h2>
+                        Gotong Royong Masyarakat Desa
+                    </h2>
+
+                    <p class="news-meta">
+                        Dusun Sekadim · Kegiatan Masyarakat
+                    </p>
+
+                    <p>
+                        Semangat gotong royong menjadi
+                        salah satu bentuk kebersamaan
+                        masyarakat dalam menjaga lingkungan.
+                    </p>
+
+                    <button
+                        class="text-button"
+                        onclick="readNews('Gotong Royong Masyarakat Desa')">
+                        Baca Berita →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="news-item">
+
+                <div class="news-thumb">
+                    🌱
+                </div>
+
+                <div class="news-item-content">
+
+                    <span>
+                        PEMBERDAYAAN
+                    </span>
+
+                    <h2>
+                        Pengembangan Potensi Ekonomi Desa
+                    </h2>
+
+                    <p class="news-meta">
+                        Desa Pusaka · Pemberdayaan
+                    </p>
+
+                    <p>
+                        Potensi masyarakat dan sumber daya
+                        lokal dapat dikembangkan untuk
+                        meningkatkan perekonomian desa.
+                    </p>
+
+                    <button
+                        class="text-button"
+                        onclick="readNews('Pengembangan Potensi Ekonomi Desa')">
+                        Baca Berita →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <article class="news-item">
+
+                <div class="news-thumb">
+                    🏫
+                </div>
+
+                <div class="news-item-content">
+
+                    <span>
+                        PENDIDIKAN
+                    </span>
+
+                    <h2>
+                        Pendidikan di Dusun Sekadim
+                    </h2>
+
+                    <p class="news-meta">
+                        Dusun Sekadim · Pendidikan
+                    </p>
+
+                    <p>
+                        SDN 08 Sekadim tercatat sebagai
+                        satuan pendidikan negeri yang berada
+                        di Dusun Sekadim, Desa Pusaka.
+                    </p>
+
+                    <button
+                        class="text-button"
+                        onclick="readNews('Pendidikan di Dusun Sekadim')">
+                        Baca Berita →
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="section section-green">
+
+    <div class="container cta">
+
+        <h2>
+            Punya Informasi Kegiatan Desa?
+        </h2>
+
+        <p>
+            Informasi kegiatan masyarakat dapat
+            dikelola dan dipublikasikan melalui
+            website desa.
+        </p>
+
+        <a href="layanan.html"
+           class="btn btn-light">
+            Lihat Layanan
+        </a>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <h3>
+                Desa Pusaka
+            </h3>
+
+            <p>
+                Dusun Sekadim,
+                Kecamatan Tebas,
+                Kabupaten Sambas,
+                Kalimantan Barat.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Navigasi
+            </h3>
+
+            <a href="index.html">
+                Beranda
+            </a>
+
+            <a href="profil.html">
+                Profil
+            </a>
+
+            <a href="pemerintahan.html">
+                Pemerintahan
+            </a>
+
+            <a href="layanan.html">
+                Layanan
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        © <span id="year"></span>
+        Pemerintah Desa Pusaka.
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
