@@ -3,576 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-          content="Website Resmi Desa Pusaka, Dusun Sekadim, Kecamatan Tebas, Kabupaten Sambas, Kalimantan Barat">
-
-    <title>Desa Pusaka | Dusun Sekadim</title>
-
-    <link rel="stylesheet" href="css/style.css">
+    <title>Desa Pusaka - Dusun Sekadim</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- ================= NAVBAR ================= -->
-
-<header class="header">
-
+<header>
     <div class="container navbar">
-
-        <a href="index.html" class="brand">
-
-            <div class="logo-icon">
-                🏡
+        <div class="logo">
+            <div class="logo-icon">🏡</div>
+            <div>
+                <h2>DESA PUSAKA</h2>
+                <span>DUSUN SEKADIM</span>
             </div>
+        </div>
 
-            <div class="brand-text">
-                <strong>DESA PUSAKA</strong>
-                <span>Dusun Sekadim</span>
-            </div>
-
-        </a>
-
-
-        <button class="menu-toggle" id="menuToggle">
-            ☰
-        </button>
-
-
-        <nav id="navMenu">
-
-            <a href="index.html" class="active">
-                Beranda
-            </a>
-
-            <a href="profil.html">
-                Profil
-            </a>
-
-            <a href="pemerintahan.html">
-                Pemerintahan
-            </a>
-
-            <a href="layanan.html">
-                Layanan
-            </a>
-
-            <a href="berita.html">
-                Berita
-            </a>
-
+        <nav>
+            <a href="index.html" class="active">Beranda</a>
+            <a href="profil.html">Profil Desa</a>
+            <a href="pemerintahan.html">Pemerintahan</a>
+            <a href="layanan.html">Layanan</a>
+            <a href="berita.html">Berita</a>
         </nav>
 
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
     </div>
-
 </header>
 
-
-<!-- ================= HERO ================= -->
-
 <section class="hero">
-
-    <div class="hero-overlay"></div>
-
     <div class="container hero-content">
+        <div class="hero-text">
+            <span class="badge">WEBSITE RESMI DESA</span>
 
-        <span class="hero-small">
-            WEBSITE RESMI DESA
-        </span>
+            <h1>
+                Selamat Datang di<br>
+                <strong>Desa Pusaka</strong>
+            </h1>
 
-        <h1>
-            Desa Pusaka
-        </h1>
+            <p>
+                Website informasi Desa Pusaka, Dusun Sekadim.
+                Media informasi pelayanan, pemerintahan, berita,
+                dan potensi masyarakat desa.
+            </p>
 
-        <p class="hero-location">
-            Dusun Sekadim, Kecamatan Tebas,
-            Kabupaten Sambas, Kalimantan Barat
-        </p>
+            <div class="hero-buttons">
+                <a href="profil.html" class="btn primary">
+                    Profil Desa
+                </a>
 
-        <p class="hero-description">
-            Media informasi dan pelayanan masyarakat
-            Desa Pusaka yang transparan, informatif,
-            dan mudah diakses.
-        </p>
-
-        <div class="hero-buttons">
-
-            <a href="profil.html" class="btn btn-primary">
-                Profil Desa
-            </a>
-
-            <a href="layanan.html" class="btn btn-outline">
-                Layanan Desa
-            </a>
-
+                <a href="layanan.html" class="btn secondary">
+                    Layanan Desa
+                </a>
+            </div>
         </div>
 
+        <div class="hero-card">
+            <div class="house">🏡</div>
+            <h3>Desa Pusaka</h3>
+            <p>Dusun Sekadim</p>
+        </div>
     </div>
-
 </section>
 
-
-<!-- ================= INFORMASI ================= -->
-
-<section class="section">
-
+<section class="welcome">
     <div class="container">
-
-        <div class="section-heading">
-
+        <div class="section-title">
             <span>INFORMASI DESA</span>
-
-            <h2>
-                Desa Pusaka Dalam Informasi
-            </h2>
-
+            <h2>Mengenal Desa Pusaka</h2>
             <p>
-                Informasi umum mengenai Desa Pusaka
-                dan Dusun Sekadim.
+                Portal informasi masyarakat Desa Pusaka, Dusun Sekadim.
             </p>
-
         </div>
 
+        <div class="cards">
 
-        <div class="info-grid">
-
-            <div class="info-card">
-
-                <div class="info-icon">
-                    📍
-                </div>
-
-                <h3>
-                    Lokasi
-                </h3>
-
+            <div class="card">
+                <div class="card-icon">🏘️</div>
+                <h3>Profil Desa</h3>
                 <p>
-                    Kecamatan Tebas,
-                    Kabupaten Sambas,
-                    Kalimantan Barat.
+                    Informasi umum mengenai Desa Pusaka,
+                    sejarah, wilayah, dan kehidupan masyarakat.
                 </p>
-
+                <a href="profil.html">Selengkapnya →</a>
             </div>
 
-
-            <div class="info-card">
-
-                <div class="info-icon">
-                    🏘️
-                </div>
-
-                <h3>
-                    Dusun
-                </h3>
-
+            <div class="card">
+                <div class="card-icon">👥</div>
+                <h3>Pemerintahan</h3>
                 <p>
-                    Dusun Sekadim merupakan
-                    salah satu wilayah di Desa Pusaka.
+                    Informasi perangkat desa dan struktur
+                    pemerintahan Desa Pusaka.
                 </p>
-
+                <a href="pemerintahan.html">Selengkapnya →</a>
             </div>
 
-
-            <div class="info-card">
-
-                <div class="info-icon">
-                    📮
-                </div>
-
-                <h3>
-                    Kode Pos
-                </h3>
-
+            <div class="card">
+                <div class="card-icon">📄</div>
+                <h3>Pelayanan Desa</h3>
                 <p>
-                    79461
+                    Informasi berbagai pelayanan administrasi
+                    yang tersedia bagi masyarakat.
                 </p>
-
+                <a href="layanan.html">Selengkapnya →</a>
             </div>
 
-
-            <div class="info-card">
-
-                <div class="info-icon">
-                    🏛️
-                </div>
-
-                <h3>
-                    Pemerintahan
-                </h3>
-
+            <div class="card">
+                <div class="card-icon">📰</div>
+                <h3>Berita Desa</h3>
                 <p>
-                    Pemerintah Desa Pusaka
+                    Berita dan informasi terbaru mengenai
+                    kegiatan Desa Pusaka.
                 </p>
-
+                <a href="berita.html">Lihat Berita →</a>
             </div>
 
         </div>
-
     </div>
-
 </section>
 
-
-<!-- ================= TENTANG ================= -->
-
-<section class="section section-green">
-
-    <div class="container about-grid">
-
-        <div class="about-content">
-
-            <span class="section-label">
-                TENTANG DESA
-            </span>
-
-            <h2>
-                Mengenal Desa Pusaka
-            </h2>
-
-            <p>
-                Desa Pusaka berada di Kecamatan Tebas,
-                Kabupaten Sambas, Provinsi Kalimantan Barat.
-                Website ini menjadi sarana informasi bagi
-                masyarakat mengenai pemerintahan, pelayanan,
-                kegiatan, dan berita desa.
-            </p>
-
-            <p>
-                Salah satu wilayah yang tercatat di Desa Pusaka
-                adalah Dusun Sekadim.
-            </p>
-
-            <a href="profil.html" class="text-button">
-                Baca Profil Lengkap →
-            </a>
-
-        </div>
-
-
-        <div class="about-box">
-
-            <div class="quote">
-                "
-            </div>
-
-            <p>
-                Bersama masyarakat membangun desa
-                yang terbuka, maju, dan berkelanjutan.
-            </p>
-
-            <div class="line"></div>
-
-            <strong>
-                Pemerintah Desa Pusaka
-            </strong>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= LAYANAN ================= -->
-
-<section class="section">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <span>PELAYANAN MASYARAKAT</span>
-
-            <h2>
-                Layanan Desa
-            </h2>
-
-            <p>
-                Informasi pelayanan administrasi
-                untuk masyarakat.
-            </p>
-
-        </div>
-
-
-        <div class="service-preview">
-
-            <div class="service-card">
-
-                <div class="service-icon">
-                    📄
-                </div>
-
-                <h3>
-                    Surat Keterangan
-                </h3>
-
-                <p>
-                    Informasi mengenai pelayanan
-                    surat keterangan masyarakat.
-                </p>
-
-                <a href="layanan.html">
-                    Selengkapnya →
-                </a>
-
-            </div>
-
-
-            <div class="service-card">
-
-                <div class="service-icon">
-                    🪪
-                </div>
-
-                <h3>
-                    Administrasi Kependudukan
-                </h3>
-
-                <p>
-                    Informasi pengurusan administrasi
-                    kependudukan.
-                </p>
-
-                <a href="layanan.html">
-                    Selengkapnya →
-                </a>
-
-            </div>
-
-
-            <div class="service-card">
-
-                <div class="service-icon">
-                    🏠
-                </div>
-
-                <h3>
-                    Surat Keterangan Usaha
-                </h3>
-
-                <p>
-                    Pelayanan administrasi untuk
-                    kegiatan usaha masyarakat.
-                </p>
-
-                <a href="layanan.html">
-                    Selengkapnya →
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= BERITA TERBARU ================= -->
-
-<section class="section section-light">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <span>INFORMASI TERKINI</span>
-
-            <h2>
-                Berita Desa
-            </h2>
-
-        </div>
-
-
-        <div class="news-grid">
-
-            <article class="news-card">
-
-                <div class="news-image">
-                    🌾
-                </div>
-
-                <div class="news-content">
-
-                    <span class="news-date">
-                        Informasi Desa
-                    </span>
-
-                    <h3>
-                        Kegiatan dan Pembangunan Desa
-                    </h3>
-
-                    <p>
-                        Informasi kegiatan pembangunan
-                        dan pemberdayaan masyarakat Desa Pusaka.
-                    </p>
-
-                    <a href="berita.html">
-                        Baca Selengkapnya →
-                    </a>
-
-                </div>
-
-            </article>
-
-
-            <article class="news-card">
-
-                <div class="news-image">
-                    🤝
-                </div>
-
-                <div class="news-content">
-
-                    <span class="news-date">
-                        Kemasyarakatan
-                    </span>
-
-                    <h3>
-                        Gotong Royong Masyarakat
-                    </h3>
-
-                    <p>
-                        Kegiatan kebersamaan masyarakat
-                        dalam menjaga lingkungan desa.
-                    </p>
-
-                    <a href="berita.html">
-                        Baca Selengkapnya →
-                    </a>
-
-                </div>
-
-            </article>
-
-
-            <article class="news-card">
-
-                <div class="news-image">
-                    🌱
-                </div>
-
-                <div class="news-content">
-
-                    <span class="news-date">
-                        Pemberdayaan
-                    </span>
-
-                    <h3>
-                        Potensi Masyarakat Desa
-                    </h3>
-
-                    <p>
-                        Pengembangan potensi dan ekonomi
-                        masyarakat Desa Pusaka.
-                    </p>
-
-                    <a href="berita.html">
-                        Baca Selengkapnya →
-                    </a>
-
-                </div>
-
-            </article>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= FOOTER ================= -->
-
-<footer class="footer">
-
-    <div class="container footer-grid">
+<section class="info-section">
+    <div class="container info-grid">
 
         <div>
-
-            <h3>
-                Desa Pusaka
-            </h3>
+            <span class="badge green">DESA PUSAKA</span>
+            <h2>Membangun Desa Bersama Masyarakat</h2>
 
             <p>
-                Dusun Sekadim,
-                Kecamatan Tebas,
-                Kabupaten Sambas,
-                Kalimantan Barat.
+                Desa Pusaka terus berupaya meningkatkan pelayanan
+                kepada masyarakat serta mengembangkan potensi desa
+                secara berkelanjutan.
             </p>
 
+            <a href="profil.html" class="btn primary">
+                Tentang Desa
+            </a>
         </div>
 
+        <div class="info-box">
+            <div>
+                <strong>Dusun</strong>
+                <span>Sekadim</span>
+            </div>
 
-        <div>
+            <div>
+                <strong>Desa</strong>
+                <span>Pusaka</span>
+            </div>
 
-            <h3>
-                Navigasi
-            </h3>
-
-            <a href="index.html">
-                Beranda
-            </a>
-
-            <a href="profil.html">
-                Profil Desa
-            </a>
-
-            <a href="pemerintahan.html">
-                Pemerintahan
-            </a>
-
-            <a href="layanan.html">
-                Layanan
-            </a>
-
-            <a href="berita.html">
-                Berita
-            </a>
-
-        </div>
-
-
-        <div>
-
-            <h3>
-                Informasi
-            </h3>
-
-            <p>
-                Kecamatan Tebas
-            </p>
-
-            <p>
-                Kabupaten Sambas
-            </p>
-
-            <p>
-                Kalimantan Barat
-            </p>
-
-            <p>
-                Kode Pos 79461
-            </p>
-
+            <div>
+                <strong>Status</strong>
+                <span>Pemerintahan Desa</span>
+            </div>
         </div>
 
     </div>
+</section>
 
+<footer>
+    <div class="container footer-content">
+        <div>
+            <h3>DESA PUSAKA</h3>
+            <p>Dusun Sekadim</p>
+        </div>
 
-    <div class="footer-bottom">
-
-        © <span id="year"></span>
-        Pemerintah Desa Pusaka.
-
+        <div>
+            <p>© <span id="tahun"></span> Pemerintah Desa Pusaka</p>
+            <p>Website Informasi Desa</p>
+        </div>
     </div>
-
 </footer>
 
-
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
