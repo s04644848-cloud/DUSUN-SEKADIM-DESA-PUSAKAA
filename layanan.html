@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Layanan | Desa Pusaka</title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+    <div class="container navbar">
+
+        <a href="index.html" class="brand">
+
+            <div class="logo-icon">
+                🏡
+            </div>
+
+            <div class="brand-text">
+
+                <strong>
+                    DESA PUSAKA
+                </strong>
+
+                <span>
+                    Dusun Sekadim
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <button class="menu-toggle"
+                id="menuToggle">
+            ☰
+        </button>
+
+
+        <nav id="navMenu">
+
+            <a href="index.html">
+                Beranda
+            </a>
+
+            <a href="profil.html">
+                Profil
+            </a>
+
+            <a href="pemerintahan.html">
+                Pemerintahan
+            </a>
+
+            <a href="layanan.html"
+               class="active">
+                Layanan
+            </a>
+
+            <a href="berita.html">
+                Berita
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<section class="page-header">
+
+    <div class="container">
+
+        <span>
+            PELAYANAN PUBLIK
+        </span>
+
+        <h1>
+            Layanan Desa
+        </h1>
+
+        <p>
+            Informasi pelayanan administrasi masyarakat
+        </p>
+
+    </div>
+
+</section>
+
+
+<main>
+
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>
+                PELAYANAN MASYARAKAT
+            </span>
+
+            <h2>
+                Jenis Layanan
+            </h2>
+
+            <p>
+                Pilih layanan untuk melihat informasi.
+            </p>
+
+        </div>
+
+
+        <div class="service-grid">
+
+
+            <div class="service-card-large">
+
+                <div class="service-icon-large">
+                    📄
+                </div>
+
+                <h3>
+                    Surat Keterangan Domisili
+                </h3>
+
+                <p>
+                    Pelayanan surat keterangan domisili
+                    bagi masyarakat Desa Pusaka.
+                </p>
+
+                <button class="btn btn-primary"
+                        onclick="showService('Surat Keterangan Domisili')">
+                    Detail Layanan
+                </button>
+
+            </div>
+
+
+            <div class="service-card-large">
+
+                <div class="service-icon-large">
+                    🪪
+                </div>
+
+                <h3>
+                    Administrasi Kependudukan
+                </h3>
+
+                <p>
+                    Informasi surat pengantar dan
+                    administrasi kependudukan.
+                </p>
+
+                <button class="btn btn-primary"
+                        onclick="showService('Administrasi Kependudukan')">
+                    Detail Layanan
+                </button>
+
+            </div>
+
+
+            <div class="service-card-large">
+
+                <div class="service-icon-large">
+                    🏠
+                </div>
+
+                <h3>
+                    Surat Keterangan Usaha
+                </h3>
+
+                <p>
+                    Pelayanan administrasi untuk
+                    masyarakat yang memiliki usaha.
+                </p>
+
+                <button class="btn btn-primary"
+                        onclick="showService('Surat Keterangan Usaha')">
+                    Detail Layanan
+                </button>
+
+            </div>
+
+
+            <div class="service-card-large">
+
+                <div class="service-icon-large">
+                    👨‍👩‍👧‍👦
+                </div>
+
+                <h3>
+                    Surat Keterangan Keluarga
+                </h3>
+
+                <p>
+                    Informasi pelayanan surat
+                    keterangan berkaitan dengan keluarga.
+                </p>
+
+                <button class="btn btn-primary"
+                        onclick="showService('Surat Keterangan Keluarga')">
+                    Detail Layanan
+                </button>
+
+            </div>
+
+
+            <div class="service-card-large">
+
+                <div class="service-icon-large">
+                    📝
+                </div>
+
+                <h3>
+                    Surat Pengantar
+                </h3>
+
+                <p>
+                    Pelayanan surat pengantar
+                    sesuai kebutuhan administrasi.
+                </p>
+
+                <button class="btn btn-primary"
+                        onclick="showService('Surat Pengantar')">
+                    Detail Layanan
+                </button>
+
+            </div>
+
+
+            <div class="service-card-large">
+
+                <div class="service-icon-large">
+                    📋
+                </div>
+
+                <h3>
+                    Informasi Administrasi
+                </h3>
+
+                <p>
+                    Informasi mengenai persyaratan
+                    dan prosedur pelayanan desa.
+                </p>
+
+                <button class="btn btn-primary"
+                        onclick="showService('Informasi Administrasi')">
+                    Detail Layanan
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- JAM PELAYANAN -->
+
+<section class="section section-light">
+
+    <div class="container">
+
+        <div class="office-hours">
+
+            <div>
+
+                <span class="section-label">
+                    INFORMASI
+                </span>
+
+                <h2>
+                    Jam Pelayanan
+                </h2>
+
+                <p>
+                    Silakan menyesuaikan jam pelayanan
+                    dengan ketentuan resmi Pemerintah
+                    Desa Pusaka.
+                </p>
+
+            </div>
+
+
+            <div class="hours-list">
+
+                <div>
+                    <span>
+                        Senin - Kamis
+                    </span>
+
+                    <strong>
+                        08.00 - 15.00
+                    </strong>
+                </div>
+
+
+                <div>
+                    <span>
+                        Jumat
+                    </span>
+
+                    <strong>
+                        08.00 - 11.00
+                    </strong>
+                </div>
+
+
+                <div>
+                    <span>
+                        Sabtu - Minggu
+                    </span>
+
+                    <strong>
+                        Libur
+                    </strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <h3>
+                Desa Pusaka
+            </h3>
+
+            <p>
+                Dusun Sekadim,
+                Kecamatan Tebas,
+                Kabupaten Sambas,
+                Kalimantan Barat.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>
+                Navigasi
+            </h3>
+
+            <a href="index.html">
+                Beranda
+            </a>
+
+            <a href="profil.html">
+                Profil
+            </a>
+
+            <a href="pemerintahan.html">
+                Pemerintahan
+            </a>
+
+            <a href="berita.html">
+                Berita
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        © <span id="year"></span>
+        Pemerintah Desa Pusaka.
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
